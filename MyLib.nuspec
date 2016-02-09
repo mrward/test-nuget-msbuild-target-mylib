@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MyLib</id>
+    <version>1.0.0</version>
+    <authors>matt</authors>
+    <owners>matt</owners>
+    <licenseUrl>http://mylib.com</licenseUrl>
+    <projectUrl>http://mylib.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>description</description>
+    <releaseNotes>Summary.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+  <files>
+    <file src="MyLib.targets" target="build/net45" />
+    <file src="MyLib/bin/x86/Debug/MyLib.dll" target="build/net45/x86" />
+    <file src="MyLib/bin/x64/Debug/MyLib.dll" target="build/net45/x64" />
+  </files>
+</package>
